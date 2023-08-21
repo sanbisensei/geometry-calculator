@@ -46,4 +46,80 @@ trimarbo.value = triareafinal;
 }
 
 
-// 
+// 3.Parallelogram
+
+function calculateParallelogram(){
+
+    const parapre = document.getElementById('parab')
+const paraText = parapre.value;
+const baseing = parseFloat(paraText);
+
+const gigipre = document.getElementById('parah')
+const pheightText = gigipre.value;
+const heighting = parseFloat(pheightText);
+
+const paraareafinal = baseing * heighting
+
+paramarbo = document.getElementById('finalpara')
+
+paramarbo.value = paraareafinal;
+
+}
+
+// 4. rhombus
+
+function calculateRhombus(){
+    
+        const rhopre = document.getElementById('idOfD')
+        const rhoText = rhopre.value;
+        const d = parseFloat(rhoText);
+        
+        const rhoheightpre = document.getElementById('idOfB')
+        const rhoheightText = rhoheightpre.value;
+        const b = parseFloat(rhoheightText);
+        
+        const rhoareafinal = 0.5 * d * b
+
+        
+        rhomarbo = document.getElementById('finalRho')
+        
+        rhomarbo.value = rhoareafinal;
+
+}
+
+// 5. pentagon
+
+function calculatePentagon(){
+
+    const basepre = document.getElementById('idOfPow')
+const baseText = basepre.value;
+const base = parseFloat(baseText);
+
+const heightpre = document.getElementById('idOfBow')
+const heightText = heightpre.value;
+const height = parseFloat(heightText);
+
+const triareafinal = 0.5 * base * height
+
+trimarbo = document.getElementById('pentafinal')
+
+trimarbo.value = triareafinal;
+    
+}
+
+// 6. ellipse
+function calculateEllipse(){
+    const basepre = document.getElementById('alia')
+const baseText = basepre.value;
+const base = parseFloat(baseText);
+
+const heightpre = document.getElementById('alib')
+const heightText = heightpre.value;
+const height = parseFloat(heightText);
+
+const triareafinal = base * height
+
+trimarbo = document.getElementById('finalalia')
+
+trimarbo.value = triareafinal;
+}
